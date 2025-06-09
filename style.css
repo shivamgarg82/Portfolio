@@ -77,37 +77,32 @@ form{
 input{
 width:300px;
 border-radius:20px;
-    padding-left:10px;
-    height:30px;
+padding-left:10px;
+height:30px;
 }
 textarea{
 width:300px;
-    height:30px;
-    padding-left:10px;
+height:30px;
+padding-left:10px;
 border-radius:20px;
 #p{
-    display: inline-block;
-    font-size: 25px;
-    color:#cfa;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    border-right: 2px solid;
-    letter-spacing: 8px;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 6s alternate-reverse,
-               cursor .4s step-end infinite alternate;
+display: inline-block;
+font-size: 25px;
+color:#cfa;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+border-right: 2px solid;
+letter-spacing: 8px;
+width: 100%;
+white-space: nowrap;
+overflow: hidden;
+animation: typing 6s alternate-reverse,
+cursor .4s step-end infinite alternate;
 }
-
 @keyframes cursor {
-    50%{
-        border-color: transparent;
-    }
+50%{border-color: transparent;}
 }
 @keyframes typing {
-    from{
-        width: 0;
-    }
+from{width: 0;}
 }
 .b{
 height: 20px;
@@ -124,48 +119,40 @@ display: none;
 z-index: -10;
 }
 h3{
-  animation-name: color;
+animation-name: color;
 animation-duration: 6s;
- animation-iteration-count: 1000;
- aniamtion-timming-function: linear;
+animation-iteration-count: 1000;
+aniamtion-timming-function: linear;
   
 }
 @keyframes color{
- 0%{
+0%{
    box-shadow: inset 0 0 10px red;
 }
 24.9%{
    box-shadow: inset 0 0 10px red;
-
-
 }
 25%{
    box-shadow: inset 0 0 10px yellow;
-color: skyblue;
-
+   color: skyblue;
 }
 49.9%{
    box-shadow: inset 0 0 10px yellow;
-color: skyblue;
-
+  color: skyblue;
 }
 50%{
    box-shadow: inset 0 0 10px #ddd;
-color: #bef;
-
+   color: #bef;
 }
 74.9%{
    box-shadow: inset 0 0 10px #ddd;
-color: #bef;
-
+   color: #bef;
 }
 75%{
    box-shadow: inset 0 0 10px 4px red;
-color: cef;
-
+   color: cef;
 }
 100%{
    box-shadow: 0 0 10px 4px  red;
-color: cef;
-
+   color: cef;
 }
