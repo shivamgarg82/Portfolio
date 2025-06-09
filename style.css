@@ -89,6 +89,25 @@ border-radius:20px;
 #p{
 font-size:25px;
 color: #cfa;
+border-right: 2px solid;
+letter-spacing:10px;
+display: inline-block;
+width:100%
+white-space:nowrap;
+overflow:hidden;
+animation: typing 6s infinite alternate-reverse,
+           cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{
+        border-color: transparent;
+    }
+}
+@keyframes typing {
+from {
+    width:0;
+}
+
 }
 #p:hover{
     font-size:30px;
