@@ -85,31 +85,33 @@ width:300px;
     height:30px;
     padding-left:10px;
 border-radius:20px;
+
+.a{
+    display: inline-block;
 }
 #p{
-font-size:25px;
-color: #cfa;
-border-right: 2px solid;
-letter-spacing:10px;
-display: inline-block;
-width:100%
-white-space:nowrap;
-overflow:hidden;
-animation: typing 6s infinite alternate-reverse,
-           cursor .4s step-end infinite alternate;
+    font-size: 25px;
+    color:#cfa;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border-right: 2px solid;
+    letter-spacing: 8px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s alternate-reverse,
+               cursor .4s step-end infinite alternate;
 }
+
 @keyframes cursor {
     50%{
         border-color: transparent;
     }
 }
 @keyframes typing {
-from {
-    width:0;
+    from{
+        width: 0;
+    }
 }
-
-}
-
 .b{
 height: 20px;
 width: 20px;
