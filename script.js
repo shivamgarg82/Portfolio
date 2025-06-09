@@ -1,4 +1,4 @@
-let btn =document.querySelector(' .b');
+let btn =document.querySelector(' .button');
 let ul =document.querySelector('.u');
 
  btn.addEventListener('click', function my()
@@ -10,5 +10,3 @@ else{
   ul.style.display="block";
 }   
 });
-
-let btn=document.getElementById('btn');
