@@ -12,7 +12,7 @@ https://github.com/shivamgarg82/Portfolio/blob/main/My%20website.mp4
 - 🎨 **Modern UI** with smooth animations and dark/light mode
 - 📱 **Fully responsive** design (mobile, tablet, desktop)
 - ⚡ **Performance optimized** (95+ Lighthouse score)
-- 📝 **Project showcase** with filtering capabilities
+- 📝 **Project showcase** with filtering capabilities 
 - 📬 **Contact form** with email integration
 - 🌐 **Multi-page navigation** with smooth transitions
 
